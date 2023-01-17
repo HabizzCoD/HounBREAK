@@ -1,0 +1,30 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;600;800&display=swap');
+
+/* gallery */
+#gallery .row {
+  margin-top: 5rem;
+}
+
+#gallery .card {
+  border: none;
+}
+
+.dates {
+  color: var(--color-primary);
+  text-align: right;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.filter-button {
+  border: none;
+  color: gray;
+}
+
+.gallery_product {
+  margin: 0;
+  padding: 0;
+}
