@@ -696,7 +696,11 @@
       src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
       type="text/javascript"
     ></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+    $(window).scroll(function () {
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
+    </script>
     <script type="text/javascript" src="info.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
